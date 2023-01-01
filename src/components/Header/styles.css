@@ -1,18 +1,18 @@
 header {
-    background-color: var(--dsct-color-bg-secondary);
-    color: var(--dsct-color-font-primary);
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: var(--dsct-color-bg-secondary);
+  color: var(--dsct-color-font-primary);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header h1 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 @media (min-width: 576px) {
-    header h1 {
-        font-size: 24px;
-    }
+  header h1 {
+    font-size: 24px;
+  }
 }

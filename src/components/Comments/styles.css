@@ -1,0 +1,25 @@
+.dsct-card-comments {
+  background-color: var(--dsct-color-bg-primary);
+  color: var(--dsct-color-font-terciary);
+  border: 1px solid var(--dsct-color-bg-secondary);
+  border-radius: 12px;
+  margin-bottom: 25px;
+  padding: 20px;
+  width: 100%;
+  max-width: 280px;
+  height: 146px;
+  display: flex;
+  align-items: center;
+}
+
+.dsct-card-comments p {
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  .dsct-card-comments {
+    width: 100%;
+    max-width: 960px;
+    height: 74px;
+  }
+}

@@ -1,0 +1,43 @@
+#dsct-car-section {
+  padding: 25px 0 0 20px;
+}
+
+#dsct-car-section h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: var(--dsct-color-font-secondary);
+  display: flex;
+  justify-content: center;
+}
+
+.dsct-card-car-container {
+  width: 100%;
+  max-width: 746px;
+  margin: 0 auto;
+}
+
+#dsct-comments-section {
+  padding: 25px 20px 0 20px;
+  background-color: var(--dsct-color-bg-terciary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#dsct-comments-section h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: var(--dsct-color-font-secondary);
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 576px) {
+  #dsct-car-section h2 {
+    font-size: 32px;
+  }
+
+  #dsct-comments-section h2 {
+    font-size: 32px;
+  }
+}
